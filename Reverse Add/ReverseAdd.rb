@@ -20,8 +20,7 @@ def reverseadd (number, i)
 		number += number.to_s.reverse.to_i
 		i += 1 
 	end
-	puts number
-	puts i
+	puts i + " " +number
 end
 
 main()
